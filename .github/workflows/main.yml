@@ -8,6 +8,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - id: salam
-        uses: kcharymyrat/hello-world-composite-action@v1
+        uses: kcharymyrat/hello-world-composite-action@v2
         with:
           who-to-greet: "this is message running in my first action"
